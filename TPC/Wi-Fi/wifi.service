@@ -1,0 +1,6 @@
+[Unit]
+Description=Start Wi-Fi Drivers
+[Service]
+ExecStart=/usr/bin/wifi.sh
+[Install]
+WanterBy=multi-user.target
